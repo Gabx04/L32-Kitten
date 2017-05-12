@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/img/landscape.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+figure {
+  width: 500px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 480px) {
+  body {
+    background-image: url(../assets/img/maxresdefault.jpg);
+    background-position: center top;
+  }
+}
+
+@media (min-width: 480px) {
+  body {
+    background-image: url(../assets/img/dawn.png);
+    background-position: center top;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+    background-image: url(../assets/img/landscape.jpg);
+    background-position: center;
+  }
+}
