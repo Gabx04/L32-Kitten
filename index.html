@@ -9,9 +9,17 @@
   </head>
   <body>
     <figure>
-      <img src="assets/img/kitten-medium.png" alt=""
-           srcset="assets/img/kitten-large.png 1x">
+      <picture>
+        <source
+          media="(min-width: 800px)"
+          srcset="assets/img/kitten-medium.png">
+        <source
+          media="(min-width: 588px)"
+          srcset="assets/img/kitten-large.png">
+        <img
+          src="assets/img/kitten-small.png"
+          alt="cute kitten">
+      </picture>
     </figure>
-
   </body>
 </html>
